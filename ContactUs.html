@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us</title>
+<link  rel="icon" href="images/logo2.svg"  type="image/svg" >
+<style>
+body{
+	margin:0;
+	padding:0;
+	}
+	
+nav{   
+   background-color: #93a0a0; 
+   display: inline-block;
+    height: 150px;       
+    line-height: 87px;
+	width:100%;
+   }
+   ul{
+   display: inline-block;
+   margin: 10px;
+   padding: 0px;
+   list-style:none;
+   }
+ 
+   
+   nav a{
+   text-decoration: none;
+   color: #774d10;
+   display: inline-block;
+   margin: 50px;
+   font-size: 200%;
+   border: none;  
+ 
+   }
+   .logo{
+   display: inline-block;
+    vertical-align: top;
+	}
+	a:hover{
+	background-color:transparent;
+	display:inline-block;
+	border-bottom-style:solid;
+	border-bottom-color:#ffffff;
+	transition: all 0.4s ease;
+	color:#fdccc9;
+	
+	}
+
+	.title{
+	text-align: center;
+	line-height:0px;
+	padding: 50px;
+	font-family:Monotype Corsiva;
+	color:#774d10;
+	}
+
+	.contact{
+	margin-top:40px;
+	padding-left:450px;
+	}
+	.controlform{
+	width: 400px;
+	height:50px;
+	background: transparent;
+	color: #774d10;
+	font-size: 18px;
+	margin-bottom:16px;
+	border:none;
+	border-bottom-style:solid;
+	border-bottom-color: #ffffff;
+	}
+	.submit{
+	width: 250px;
+	background-color: #93a0a0;
+	color: #774d10;
+	font-size: 18px;
+	heigth:100px;
+	border:none;
+	margin-top:10px;
+	padding:20px;
+	margin-left:50px;
+	
+	}
+	p{
+	text-align: center;
+	font-family:Monotype Corsiva;
+	color:#774d10;
+	font-size:200%;
+}
+ body{
+	background-image: url('images/chef2.jpg');
+	background-repeat:no-repeat;
+    background-size: cover;
+    }
+ footer{
+		background-color:#93a0a0;
+	width: 1349px;
+	height:150px;
+	margin-top:100px;
+	display: inline-block;
+	
+	}
+	
+	.fade {
+	animation: fadeIn 2s;
+}
+
+@keyframes fadeIn  {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
+
+</style>
+</head>
+<nav>
+<img class="logo" src="images/finallogo2.svg" alt="logo" width="310" height="177">
+  <ul> 
+  <li> 
+  
+    <a href="home.html">Home</a> 
+	   <a href="menu.html">Menu</a>
+	  <a href="aboutus.html">About Us</a>  
+      <a href="ContactUs.html">Contact Us</a>
+	 </li>
+	 </ul>
+</nav>
+<body bgcolor="fdccc9">
+<div class="fade">
+    <h1 class="title ">We are always ready to serve you!</h1><br>
+	<p > you can message us here</p>
+	</div>
+	
+	<form class="contact" action="/loginprocess.jsp" method="post">
+	<input class="controlform" name="name" type="text" placeholder="Your name..."><br>
+	<input class="controlform" name="Email" type="email" placeholder="Your Email..."><br>
+    <input class="controlform" name="message" type="text" placeholder="Message..." ><br>
+	<input class="submit" type="submit" value="SEND MESSAGE">
+	</form>
+
+</body>
+
+<footer>
+<a href="www.facebook.com">
+<img class="fb" src="images/fblogo.svg" alt="facebook" width="100" height="100"></div>
+</a>
+<a href="https://www.instagram.com/the_sugar_den/">
+<img class="ig" src="images/instalogo.svg" alt="instagram" width="100" height="100">
+</a>
+<a href="https://www.google.com/maps/place/Hazemeyeh/@33.8885108,35.4934202,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x151f1723e219fc85:0xbea335405c2b7a3d!2sHazemeyeh!8m2!3d33.8885108!4d35.4956089!3m4!1s0x151f1723e219fc85:0xbea335405c2b7a3d!8m2!3d33.8885108!4d35.4956089">
+<img class="location" src="images/location2.svg" alt="location" width="110" height="100">
+</a>
+
+</footer>
+
+</html>
